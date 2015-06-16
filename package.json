@@ -1,0 +1,27 @@
+{
+  "name": "asyncplify-tests",
+  "version": "1.0.0",
+  "description": "Common tests for asyncplify operators",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danylaporte/asyncplify-tests.git"
+  },
+  "keywords": [
+    "asyncplify",
+    "frp",
+    "test"
+  ],
+  "author": "Dany Laporte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danylaporte/asyncplify-tests/issues"
+  },
+  "homepage": "https://github.com/danylaporte/asyncplify-tests#readme",
+  "dependencies": {
+    "should": "^6.0.3"
+  }
+}

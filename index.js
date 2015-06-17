@@ -48,10 +48,14 @@ module.exports.itShouldEndAsync = function (options) {
 
 			source.subscribe({
 				end: function (err) {
-					if (options && options.error)
-						assert(err !== null);
-					else
+					if (options && options.error) {
+						if (typeof options.error === 'string')
+							options.error.should.equal(err);
+						else
+							assert(err !== null);
+					} else {
 						assert(err === null);
+					}
 
 					called = true;
 					setTimeout(done, 0);

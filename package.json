@@ -1,6 +1,6 @@
 {
   "name": "asyncplify-tests",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Common tests for asyncplify operators",
   "main": "index.js",
   "scripts": {
